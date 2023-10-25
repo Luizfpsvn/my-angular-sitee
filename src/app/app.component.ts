@@ -3,8 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <h1>HELLO WORLD OF ANGULAR!</h1>
+    <!-- header -->
+    <app-header></app-header>
+
+    <!-- routes get injected hr -->
     <router-outlet></router-outlet>
+
+    <app-footer></app-footer>
   `,
   styles: []
 })
