@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
     <section class="hero is-primary is-bold is-fullheight">
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="title">Hero section</h1>
+          <h1 class="title">
+            O Designer saiu de férias e não quis deixar o texto pronto, logo
+            qualquer texto aleatorio aqui até ele voltar kkkk
+          </h1>
         </div>
       </div>
     </section>
@@ -14,7 +17,7 @@ import { Component } from '@angular/core';
   styles: [
     `
       .hero {
-        background-image: url('../../assets/img/pexels-bayram-musayev-18395712.jpg') !important;
+        background-image: url('../../assets/img/mohammad-rahmani-q1p2DrLBtko-unsplash.jpg') !important;
         background-size: cover;
         background-position: center center;
       }

@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   template: ` <header class="navbar is-dark">
     <div class="navbar-brand">
-      <a class="navbar-item">
-        <img src="../../assets/img/ts-logo.svg" alt="" />
+      <a class="navbar-item" routerLink="/">
+        <img src="../../assets/img/icons8-github-96.png" alt="" />
       </a>
     </div>
 

@@ -74,7 +74,7 @@ import { Component } from '@angular/core';
   styles: [
     `
       .hero-body {
-        background: green;
+        background: #81007f;
       }
     `
   ]
