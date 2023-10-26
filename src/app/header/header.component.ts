@@ -13,6 +13,7 @@ import { Component } from '@angular/core';
       <div class="navbar-end">
         <div class="navbar-item" routerLink="/">Home</div>
         <div class="navbar-item" routerLink="/contact">Contato</div>
+        <div class="navbar-item" routerLink="/users">Usuários</div>
       </div>
     </div>
   </header>`,
