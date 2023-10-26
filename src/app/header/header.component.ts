@@ -2,13 +2,20 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
-  template: ` <div class="navbar is-dark">
-    <header class="navbar-brand">
+  template: ` <header class="navbar is-dark">
+    <div class="navbar-brand">
       <a class="navbar-item">
         <img src="../../assets/img/ts-logo.svg" alt="" />
       </a>
-    </header>
-  </div>`,
+    </div>
+
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item" routerLink="/">Home</div>
+        <div class="navbar-item" routerLink="/contact">Contato</div>
+      </div>
+    </div>
+  </header>`,
   styles: []
 })
 export class HeaderComponent {}

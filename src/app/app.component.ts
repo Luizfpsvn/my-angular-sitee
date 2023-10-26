@@ -5,10 +5,6 @@ import { Component } from '@angular/core';
   template: `
     <app-header></app-header>
 
-    <app-home></app-home>
-
-    <app-contact></app-contact>
-
     <!-- routes get injected hr -->
     <router-outlet></router-outlet>
 
