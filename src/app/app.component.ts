@@ -3,12 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <!-- header -->
     <app-header></app-header>
 
-    <app-contact></app-contact>
-
     <app-home></app-home>
+
+    <app-contact></app-contact>
 
     <!-- routes get injected hr -->
     <router-outlet></router-outlet>
