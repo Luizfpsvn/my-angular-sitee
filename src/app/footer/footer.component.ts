@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-footer',
   template: `
     <footer class="footer">
-      <div class="container content has text-centered">
+      <div class="container has-text-centered">
         <p>Feito com bastante dedicação ❤️ por Luiz Fernando</p>
       </div>
     </footer>
